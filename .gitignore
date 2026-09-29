@@ -1,0 +1,14 @@
+# Local Python environments and caches
+.DMTvenv/
+__pycache__/
+*.py[cod]
+
+# macOS metadata
+.DS_Store
+
+# Source and generated datasets are kept local due to their size.
+Dataset/
+processed_data/
+
+# Streamlit's local configuration and cache
+.streamlit/
