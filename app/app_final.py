@@ -91,7 +91,8 @@ def find_file(*relative_parts):
 customer_file = find_file("processed_data", "customer_segments.csv")
 products_file = find_file("processed_data", "top_products.csv")
 rules_file = find_file("processed_data", "association_rules.csv")
-orders_file = find_file("Dataset", "orders.csv")
+orders_by_day_file = find_file("processed_data", "orders_by_day.csv")
+orders_by_hour_file = find_file("processed_data", "orders_by_hour.csv")
 
 
 # ============================================================
@@ -103,18 +104,11 @@ def load_csv(path):
     return pd.read_csv(path)
 
 
-@st.cache_data(show_spinner="Analysing order times...")
-def load_order_counts(path):
-    """Read orders.csv once and keep only the small aggregated counts."""
-    orders = pd.read_csv(path, usecols=["order_dow", "order_hour_of_day"])
-    by_day = orders["order_dow"].value_counts().sort_index()
-    by_day.index = by_day.index.map(DAY_NAMES)
-    by_hour = orders["order_hour_of_day"].value_counts().sort_index()
-    return by_day, by_hour
-
-
 missing = [
-    p for p in (customer_file, products_file, rules_file)
+    p for p in (
+        customer_file, products_file, rules_file,
+        orders_by_day_file, orders_by_hour_file,
+    )
     if not os.path.exists(p)
 ]
 
@@ -130,6 +124,8 @@ if missing:
 customer_segments = load_csv(customer_file)
 top_products = load_csv(products_file)
 rules = load_csv(rules_file)
+orders_by_day = load_csv(orders_by_day_file)
+orders_by_hour = load_csv(orders_by_hour_file)
 
 
 # ============================================================
@@ -281,79 +277,54 @@ st.dataframe(top_products, width="stretch", hide_index=True)
 
 st.header("📅 Orders by Day of Week")
 
-if os.path.exists(orders_file):
-
-    orders_by_day, orders_by_hour = load_order_counts(orders_file)
-
-    day_df = (
-        orders_by_day
-        .rename_axis("Day")
-        .reset_index(name="Orders")
-    )
-
-    day_chart = (
-        alt.Chart(day_df)
+day_chart = (
+        alt.Chart(orders_by_day)
         .mark_bar()
         .encode(
-            x=alt.X("Day:N", sort=DAY_ORDER, title=None),
-            y=alt.Y("Orders:Q"),
-            tooltip=["Day", alt.Tooltip("Orders:Q", format=",")],
+            x=alt.X("day:N", sort=DAY_ORDER, title=None),
+            y=alt.Y("orders:Q"),
+            tooltip=["day:N", alt.Tooltip("orders:Q", format=",")],
         )
     )
 
-    st.altair_chart(day_chart, use_container_width=True)
+st.altair_chart(day_chart, use_container_width=True)
 
-    st.caption(
-        "Assumption: the dataset does not document which number is which day. "
-        "Here 0 is treated as Saturday and 1 as Sunday, based on "
-        "weekend order-volume patterns."
-    )
+st.caption(
+    "Assumption: the dataset does not document which number is which day. "
+    "Here 0 is treated as Saturday and 1 as Sunday, based on "
+    "weekend order-volume patterns."
+)
 
-    st.header("⏰ Orders by Hour of Day")
+st.header("⏰ Orders by Hour of Day")
 
-    hour_df = (
-        orders_by_hour
-        .rename_axis("Hour")
-        .reset_index(name="Orders")
-    )
-
-    hour_chart = (
-        alt.Chart(hour_df)
+hour_chart = (
+        alt.Chart(orders_by_hour)
         .mark_line(point=True)
         .encode(
-            x=alt.X("Hour:O", title="Hour of Day"),
-            y=alt.Y("Orders:Q"),
-            tooltip=["Hour", alt.Tooltip("Orders:Q", format=",")],
+            x=alt.X("hour:O", title="Hour of Day"),
+            y=alt.Y("orders:Q"),
+            tooltip=["hour:O", alt.Tooltip("orders:Q", format=",")],
         )
     )
 
-    st.altair_chart(hour_chart, use_container_width=True)
+st.altair_chart(hour_chart, use_container_width=True)
 
-    peak_hour = orders_by_hour.idxmax()
-    peak_orders = orders_by_hour.max()
-    lowest_hour = orders_by_hour.idxmin()
-    lowest_orders = orders_by_hour.min()
+peak_row = orders_by_hour.loc[orders_by_hour["orders"].idxmax()]
+lowest_row = orders_by_hour.loc[orders_by_hour["orders"].idxmin()]
 
-    col1, col2 = st.columns(2)
+col1, col2 = st.columns(2)
 
-    col1.metric(
-        "Peak Ordering Hour",
-        f"{peak_hour}:00",
-        f"{peak_orders:,} orders",
-    )
+col1.metric(
+    "Peak Ordering Hour",
+    f"{peak_row['hour']}:00",
+    f"{peak_row['orders']:,} orders",
+)
 
-    col2.metric(
-        "Lowest Ordering Hour",
-        f"{lowest_hour}:00",
-        f"{lowest_orders:,} orders",
-    )
-
-else:
-
-    st.warning(
-        "orders.csv was not found. "
-        "Day and hour analysis cannot be displayed."
-    )
+col2.metric(
+    "Lowest Ordering Hour",
+    f"{lowest_row['hour']}:00",
+    f"{lowest_row['orders']:,} orders",
+)
 
 
 # ============================================================

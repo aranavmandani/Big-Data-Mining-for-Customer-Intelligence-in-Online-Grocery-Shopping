@@ -6,9 +6,16 @@ __pycache__/
 # macOS metadata
 .DS_Store
 
-# Source and generated datasets are kept local due to their size.
+# Source datasets are kept local due to their size.
 Dataset/
-processed_data/
+
+# Keep the dashboard's compact, precomputed inputs in version control.
+processed_data/*
+!processed_data/customer_segments.csv
+!processed_data/top_products.csv
+!processed_data/association_rules.csv
+!processed_data/orders_by_day.csv
+!processed_data/orders_by_hour.csv
 
 # Streamlit's local configuration and cache
 .streamlit/
