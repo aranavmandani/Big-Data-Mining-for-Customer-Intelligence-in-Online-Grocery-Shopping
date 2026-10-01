@@ -1,0 +1,536 @@
+{
+  "top_products": [
+    {
+      "rank": 1,
+      "product_name": "Banana",
+      "purchase_count": 472565,
+      "share_pct": 14.7,
+      "is_organic": false,
+      "icon": "\ud83c\udf4c",
+      "has_rules": false
+    },
+    {
+      "rank": 2,
+      "product_name": "Bag of Organic Bananas",
+      "purchase_count": 379450,
+      "share_pct": 11.8,
+      "is_organic": true,
+      "icon": "\ud83c\udf4c",
+      "has_rules": false
+    },
+    {
+      "rank": 3,
+      "product_name": "Organic Strawberries",
+      "purchase_count": 264683,
+      "share_pct": 8.23,
+      "is_organic": true,
+      "icon": "\ud83c\udf53",
+      "has_rules": true
+    },
+    {
+      "rank": 4,
+      "product_name": "Organic Baby Spinach",
+      "purchase_count": 241921,
+      "share_pct": 7.53,
+      "is_organic": true,
+      "icon": "\ud83e\udd6c",
+      "has_rules": true
+    },
+    {
+      "rank": 5,
+      "product_name": "Organic Hass Avocado",
+      "purchase_count": 213584,
+      "share_pct": 6.64,
+      "is_organic": true,
+      "icon": "\ud83e\udd51",
+      "has_rules": true
+    },
+    {
+      "rank": 6,
+      "product_name": "Organic Avocado",
+      "purchase_count": 176815,
+      "share_pct": 5.5,
+      "is_organic": true,
+      "icon": "\ud83e\udd51",
+      "has_rules": true
+    },
+    {
+      "rank": 7,
+      "product_name": "Large Lemon",
+      "purchase_count": 152657,
+      "share_pct": 4.75,
+      "is_organic": false,
+      "icon": "\ud83c\udf4b",
+      "has_rules": true
+    },
+    {
+      "rank": 8,
+      "product_name": "Strawberries",
+      "purchase_count": 142951,
+      "share_pct": 4.45,
+      "is_organic": false,
+      "icon": "\ud83c\udf53",
+      "has_rules": false
+    },
+    {
+      "rank": 9,
+      "product_name": "Limes",
+      "purchase_count": 140627,
+      "share_pct": 4.37,
+      "is_organic": false,
+      "icon": "\ud83d\udfe2",
+      "has_rules": true
+    },
+    {
+      "rank": 10,
+      "product_name": "Organic Whole Milk",
+      "purchase_count": 137905,
+      "share_pct": 4.29,
+      "is_organic": true,
+      "icon": "\ud83e\udd5b",
+      "has_rules": true
+    },
+    {
+      "rank": 11,
+      "product_name": "Organic Raspberries",
+      "purchase_count": 137057,
+      "share_pct": 4.26,
+      "is_organic": true,
+      "icon": "\ud83c\udf47",
+      "has_rules": true
+    },
+    {
+      "rank": 12,
+      "product_name": "Organic Yellow Onion",
+      "purchase_count": 113426,
+      "share_pct": 3.53,
+      "is_organic": true,
+      "icon": "\ud83e\uddc5",
+      "has_rules": true
+    },
+    {
+      "rank": 13,
+      "product_name": "Organic Garlic",
+      "purchase_count": 109778,
+      "share_pct": 3.41,
+      "is_organic": true,
+      "icon": "\ud83e\uddc4",
+      "has_rules": true
+    },
+    {
+      "rank": 14,
+      "product_name": "Organic Zucchini",
+      "purchase_count": 104823,
+      "share_pct": 3.26,
+      "is_organic": true,
+      "icon": "\ud83e\udd52",
+      "has_rules": true
+    },
+    {
+      "rank": 15,
+      "product_name": "Organic Blueberries",
+      "purchase_count": 100060,
+      "share_pct": 3.11,
+      "is_organic": true,
+      "icon": "\ud83e\uded0",
+      "has_rules": true
+    },
+    {
+      "rank": 16,
+      "product_name": "Cucumber Kirby",
+      "purchase_count": 97315,
+      "share_pct": 3.03,
+      "is_organic": false,
+      "icon": "\ud83e\udd52",
+      "has_rules": false
+    },
+    {
+      "rank": 17,
+      "product_name": "Organic Fuji Apple",
+      "purchase_count": 89632,
+      "share_pct": 2.79,
+      "is_organic": true,
+      "icon": "\ud83c\udf4e",
+      "has_rules": false
+    },
+    {
+      "rank": 18,
+      "product_name": "Organic Lemon",
+      "purchase_count": 87746,
+      "share_pct": 2.73,
+      "is_organic": true,
+      "icon": "\ud83c\udf4b",
+      "has_rules": true
+    },
+    {
+      "rank": 19,
+      "product_name": "Apple Honeycrisp Organic",
+      "purchase_count": 85020,
+      "share_pct": 2.64,
+      "is_organic": true,
+      "icon": "\ud83c\udf4e",
+      "has_rules": false
+    },
+    {
+      "rank": 20,
+      "product_name": "Organic Grape Tomatoes",
+      "purchase_count": 84255,
+      "share_pct": 2.62,
+      "is_organic": true,
+      "icon": "\ud83c\udf45",
+      "has_rules": false
+    }
+  ],
+  "segment_top_products": [
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Banana",
+      "purchases": 112868,
+      "share_pct": 1.42,
+      "lift": 0.97
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Bag of Organic Bananas",
+      "purchases": 70042,
+      "share_pct": 0.88,
+      "lift": 0.75
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Organic Baby Spinach",
+      "purchases": 55292,
+      "share_pct": 0.7,
+      "lift": 0.93
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Organic Strawberries",
+      "purchases": 53133,
+      "share_pct": 0.67,
+      "lift": 0.82
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Organic Avocado",
+      "purchases": 47880,
+      "share_pct": 0.6,
+      "lift": 1.1
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Organic Hass Avocado",
+      "purchases": 45854,
+      "share_pct": 0.58,
+      "lift": 0.88
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Large Lemon",
+      "purchases": 41565,
+      "share_pct": 0.52,
+      "lift": 1.11
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Limes",
+      "purchases": 36960,
+      "share_pct": 0.46,
+      "lift": 1.07
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Strawberries",
+      "purchases": 32636,
+      "share_pct": 0.41,
+      "lift": 0.93
+    },
+    {
+      "segment": "Bulk Basket Customers",
+      "product": "Cucumber Kirby",
+      "purchases": 28658,
+      "share_pct": 0.36,
+      "lift": 1.2
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Bag of Organic Bananas",
+      "purchases": 42428,
+      "share_pct": 1.51,
+      "lift": 1.29
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Banana",
+      "purchases": 37637,
+      "share_pct": 1.34,
+      "lift": 0.92
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Organic Baby Spinach",
+      "purchases": 21736,
+      "share_pct": 0.77,
+      "lift": 1.04
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Organic Strawberries",
+      "purchases": 20604,
+      "share_pct": 0.73,
+      "lift": 0.9
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Strawberries",
+      "purchases": 18027,
+      "share_pct": 0.64,
+      "lift": 1.45
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Organic Blueberries",
+      "purchases": 12512,
+      "share_pct": 0.44,
+      "lift": 1.44
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Raspberries",
+      "purchases": 12452,
+      "share_pct": 0.44,
+      "lift": 2.49
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Organic Hass Avocado",
+      "purchases": 12319,
+      "share_pct": 0.44,
+      "lift": 0.66
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Organic Avocado",
+      "purchases": 12089,
+      "share_pct": 0.43,
+      "lift": 0.79
+    },
+    {
+      "segment": "Frequent Customers",
+      "product": "Hass Avocados",
+      "purchases": 12083,
+      "share_pct": 0.43,
+      "lift": 2.77
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Banana",
+      "purchases": 274857,
+      "share_pct": 1.52,
+      "lift": 1.04
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Bag of Organic Bananas",
+      "purchases": 236455,
+      "share_pct": 1.31,
+      "lift": 1.12
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Strawberries",
+      "purchases": 170154,
+      "share_pct": 0.94,
+      "lift": 1.15
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Baby Spinach",
+      "purchases": 140530,
+      "share_pct": 0.78,
+      "lift": 1.04
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Hass Avocado",
+      "purchases": 139917,
+      "share_pct": 0.77,
+      "lift": 1.18
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Avocado",
+      "purchases": 96236,
+      "share_pct": 0.53,
+      "lift": 0.98
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Raspberries",
+      "purchases": 91647,
+      "share_pct": 0.51,
+      "lift": 1.2
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Organic Whole Milk",
+      "purchases": 89404,
+      "share_pct": 0.49,
+      "lift": 1.16
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Large Lemon",
+      "purchases": 82656,
+      "share_pct": 0.46,
+      "lift": 0.97
+    },
+    {
+      "segment": "Highly Loyal Customers",
+      "product": "Limes",
+      "purchases": 80347,
+      "share_pct": 0.44,
+      "lift": 1.03
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Bag of Organic Bananas",
+      "purchases": 8335,
+      "share_pct": 1.54,
+      "lift": 1.32
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Banana",
+      "purchases": 5347,
+      "share_pct": 0.99,
+      "lift": 0.68
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Organic Baby Spinach",
+      "purchases": 4428,
+      "share_pct": 0.82,
+      "lift": 1.1
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Soda",
+      "purchases": 4026,
+      "share_pct": 0.74,
+      "lift": 6.75
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Organic Strawberries",
+      "purchases": 3973,
+      "share_pct": 0.73,
+      "lift": 0.9
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Strawberries",
+      "purchases": 3814,
+      "share_pct": 0.71,
+      "lift": 1.6
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Hass Avocados",
+      "purchases": 3410,
+      "share_pct": 0.63,
+      "lift": 4.07
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Raspberries",
+      "purchases": 3316,
+      "share_pct": 0.61,
+      "lift": 3.45
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Spring Water",
+      "purchases": 2811,
+      "share_pct": 0.52,
+      "lift": 3.01
+    },
+    {
+      "segment": "Occasional Customers",
+      "product": "Organic Blueberries",
+      "purchases": 2495,
+      "share_pct": 0.46,
+      "lift": 1.5
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Banana",
+      "purchases": 41856,
+      "share_pct": 1.37,
+      "lift": 0.94
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Bag of Organic Bananas",
+      "purchases": 22190,
+      "share_pct": 0.73,
+      "lift": 0.62
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Organic Baby Spinach",
+      "purchases": 19935,
+      "share_pct": 0.65,
+      "lift": 0.87
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Organic Avocado",
+      "purchases": 18735,
+      "share_pct": 0.61,
+      "lift": 1.12
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Organic Strawberries",
+      "purchases": 16819,
+      "share_pct": 0.55,
+      "lift": 0.67
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Large Lemon",
+      "purchases": 16589,
+      "share_pct": 0.54,
+      "lift": 1.15
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Organic Hass Avocado",
+      "purchases": 13905,
+      "share_pct": 0.46,
+      "lift": 0.69
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Limes",
+      "purchases": 13801,
+      "share_pct": 0.45,
+      "lift": 1.04
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Strawberries",
+      "purchases": 12876,
+      "share_pct": 0.42,
+      "lift": 0.96
+    },
+    {
+      "segment": "Regular Customers",
+      "product": "Cucumber Kirby",
+      "purchases": 10620,
+      "share_pct": 0.35,
+      "lift": 1.16
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "summary": {
+    "total_customers": 206209,
+    "total_orders": 3214874,
+    "total_products_bought": 32434489,
+    "catalog_mined_products": 150,
+    "avg_basket_size": 9.95,
+    "avg_reorder_rate": 0.4322,
+    "avg_days_between_orders": 15.21,
+    "total_rules": 45,
+    "peak_hour": 10,
+    "peak_hour_orders": 271885,
+    "lowest_hour": 3,
+    "lowest_hour_orders": 5120,
+    "peak_day": "Saturday",
+    "peak_day_orders": 557772,
+    "algorithms": [
+      {
+        "name": "K-Means Clustering",
+        "badge": "Unsupervised",
+        "purpose": "Customer Behavioral Segmentation (k=5)",
+        "icon": "Users"
+      },
+      {
+        "name": "FP-Growth Algorithm",
+        "badge": "Pattern Mining",
+        "purpose": "Frequent Itemset Discovery on 1M sample",
+        "icon": "GitFork"
+      },
+      {
+        "name": "Association Rules",
+        "badge": "Market Basket",
+        "purpose": "Cross-sell Recommendation Engine (Lift \u2265 1.2)",
+        "icon": "Sparkles"
+      }
+    ]
+  },
+  "segments_overview": {
+    "Bulk Basket Customers": {
+      "name": "Bulk Basket Customers",
+      "count": 45877,
+      "share_pct": 22.25,
+      "cluster_id": 0,
+      "means": {
+        "total_orders": 12.368,
+        "total_products": 173.401,
+        "avg_products_per_order": 14.717,
+        "reorder_rate": 0.482,
+        "avg_days_between_orders": 14.906
+      },
+      "medians": {
+        "total_orders": 12.0,
+        "total_products": 155.0,
+        "avg_products_per_order": 13.3,
+        "reorder_rate": 0.481,
+        "avg_days_between_orders": 14.955
+      },
+      "stds": {
+        "total_orders": 4.943,
+        "total_products": 82.303,
+        "avg_products_per_order": 5.597,
+        "reorder_rate": 0.118,
+        "avg_days_between_orders": 4.878
+      },
+      "top_products": [
+        {
+          "product_name": "Banana",
+          "purchase_count": 112868,
+          "share_pct": 1.42,
+          "lift_vs_overall": 0.97
+        },
+        {
+          "product_name": "Bag of Organic Bananas",
+          "purchase_count": 70042,
+          "share_pct": 0.88,
+          "lift_vs_overall": 0.75
+        },
+        {
+          "product_name": "Organic Baby Spinach",
+          "purchase_count": 55292,
+          "share_pct": 0.7,
+          "lift_vs_overall": 0.93
+        },
+        {
+          "product_name": "Organic Strawberries",
+          "purchase_count": 53133,
+          "share_pct": 0.67,
+          "lift_vs_overall": 0.82
+        },
+        {
+          "product_name": "Organic Avocado",
+          "purchase_count": 47880,
+          "share_pct": 0.6,
+          "lift_vs_overall": 1.1
+        },
+        {
+          "product_name": "Organic Hass Avocado",
+          "purchase_count": 45854,
+          "share_pct": 0.58,
+          "lift_vs_overall": 0.88
+        },
+        {
+          "product_name": "Large Lemon",
+          "purchase_count": 41565,
+          "share_pct": 0.52,
+          "lift_vs_overall": 1.11
+        },
+        {
+          "product_name": "Limes",
+          "purchase_count": 36960,
+          "share_pct": 0.46,
+          "lift_vs_overall": 1.07
+        },
+        {
+          "product_name": "Strawberries",
+          "purchase_count": 32636,
+          "share_pct": 0.41,
+          "lift_vs_overall": 0.93
+        },
+        {
+          "product_name": "Cucumber Kirby",
+          "purchase_count": 28658,
+          "share_pct": 0.36,
+          "lift_vs_overall": 1.2
+        }
+      ],
+      "color": "#8B5CF6",
+      "accent": "#7C3AED",
+      "bg_gradient": "linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(124, 58, 237, 0.05))",
+      "badge": "Volume Stockers",
+      "icon": "Boxes",
+      "tier": "Tier 2 - High Basket Size",
+      "churn_risk": "Moderate (24.1%)",
+      "strategy": "Fewer orders but very large baskets (18+ items per order). Offer bulk discounts, family pack thresholds and seasonal pantry stock-up promotions.",
+      "key_tactics": [
+        "Pantry stock-up bundles & wholesale family box deals",
+        "Tiered order-level discount thresholds ($10 off $100+)",
+        "Automated replenishment reminders 15-20 days post-order",
+        "Cross-category discovery sampler packs"
+      ],
+      "persona_summary": "Bi-weekly or monthly pantry stockers and families purchasing extensive groceries in single comprehensive trips."
+    },
+    "Frequent Customers": {
+      "name": "Frequent Customers",
+      "count": 37088,
+      "share_pct": 17.99,
+      "cluster_id": 4,
+      "means": {
+        "total_orders": 15.223,
+        "total_products": 75.89,
+        "avg_products_per_order": 5.319,
+        "reorder_rate": 0.51,
+        "avg_days_between_orders": 12.054
+      },
+      "medians": {
+        "total_orders": 14.0,
+        "total_products": 69.0,
+        "avg_products_per_order": 5.4,
+        "reorder_rate": 0.508,
+        "avg_days_between_orders": 11.895
+      },
+      "stds": {
+        "total_orders": 8.009,
+        "total_products": 39.395,
+        "avg_products_per_order": 1.946,
+        "reorder_rate": 0.158,
+        "avg_days_between_orders": 4.663
+      },
+      "top_products": [
+        {
+          "product_name": "Bag of Organic Bananas",
+          "purchase_count": 42428,
+          "share_pct": 1.51,
+          "lift_vs_overall": 1.29
+        },
+        {
+          "product_name": "Banana",
+          "purchase_count": 37637,
+          "share_pct": 1.34,
+          "lift_vs_overall": 0.92
+        },
+        {
+          "product_name": "Organic Baby Spinach",
+          "purchase_count": 21736,
+          "share_pct": 0.77,
+          "lift_vs_overall": 1.04
+        },
+        {
+          "product_name": "Organic Strawberries",
+          "purchase_count": 20604,
+          "share_pct": 0.73,
+          "lift_vs_overall": 0.9
+        },
+        {
+          "product_name": "Strawberries",
+          "purchase_count": 18027,
+          "share_pct": 0.64,
+          "lift_vs_overall": 1.45
+        },
+        {
+          "product_name": "Organic Blueberries",
+          "purchase_count": 12512,
+          "share_pct": 0.44,
+          "lift_vs_overall": 1.44
+        },
+        {
+          "product_name": "Raspberries",
+          "purchase_count": 12452,
+          "share_pct": 0.44,
+          "lift_vs_overall": 2.49
+        },
+        {
+          "product_name": "Organic Hass Avocado",
+          "purchase_count": 12319,
+          "share_pct": 0.44,
+          "lift_vs_overall": 0.66
+        },
+        {
+          "product_name": "Organic Avocado",
+          "purchase_count": 12089,
+          "share_pct": 0.43,
+          "lift_vs_overall": 0.79
+        },
+        {
+          "product_name": "Hass Avocados",
+          "purchase_count": 12083,
+          "share_pct": 0.43,
+          "lift_vs_overall": 2.77
+        }
+      ],
+      "color": "#3B82F6",
+      "accent": "#2563EB",
+      "bg_gradient": "linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(37, 99, 235, 0.05))",
+      "badge": "Habitual Buyers",
+      "icon": "TrendingUp",
+      "tier": "Tier 2 - Growth Engine",
+      "churn_risk": "Moderate (18.5%)",
+      "strategy": "Regular, habit-driven shoppers. Encourage larger baskets with cross-sell offers, recipe bundles and personalized multi-packs.",
+      "key_tactics": [
+        "Basket size upsell nudges (e.g. 'Add 2 more items for free shipping')",
+        "Recipe-driven cross-selling (pairing Avocado with Limes & Garlic)",
+        "Mid-week scheduled reminder push notifications",
+        "Volume discounts on high-frequency fresh produce"
+      ],
+      "persona_summary": "Consistent weekly replenishment shoppers who have high intent but could expand their category breadth."
+    },
+    "Highly Loyal Customers": {
+      "name": "Highly Loyal Customers",
+      "count": 38773,
+      "share_pct": 18.8,
+      "cluster_id": 2,
+      "means": {
+        "total_orders": 42.536,
+        "total_products": 466.025,
+        "avg_products_per_order": 11.517,
+        "reorder_rate": 0.685,
+        "avg_days_between_orders": 7.98
+      },
+      "medians": {
+        "total_orders": 37.0,
+        "total_products": 388.0,
+        "avg_products_per_order": 10.438,
+        "reorder_rate": 0.693,
+        "avg_days_between_orders": 7.822
+      },
+      "stds": {
+        "total_orders": 19.946,
+        "total_products": 282.878,
+        "avg_products_per_order": 5.413,
+        "reorder_rate": 0.112,
+        "avg_days_between_orders": 2.84
+      },
+      "top_products": [
+        {
+          "product_name": "Banana",
+          "purchase_count": 274857,
+          "share_pct": 1.52,
+          "lift_vs_overall": 1.04
+        },
+        {
+          "product_name": "Bag of Organic Bananas",
+          "purchase_count": 236455,
+          "share_pct": 1.31,
+          "lift_vs_overall": 1.12
+        },
+        {
+          "product_name": "Organic Strawberries",
+          "purchase_count": 170154,
+          "share_pct": 0.94,
+          "lift_vs_overall": 1.15
+        },
+        {
+          "product_name": "Organic Baby Spinach",
+          "purchase_count": 140530,
+          "share_pct": 0.78,
+          "lift_vs_overall": 1.04
+        },
+        {
+          "product_name": "Organic Hass Avocado",
+          "purchase_count": 139917,
+          "share_pct": 0.77,
+          "lift_vs_overall": 1.18
+        },
+        {
+          "product_name": "Organic Avocado",
+          "purchase_count": 96236,
+          "share_pct": 0.53,
+          "lift_vs_overall": 0.98
+        },
+        {
+          "product_name": "Organic Raspberries",
+          "purchase_count": 91647,
+          "share_pct": 0.51,
+          "lift_vs_overall": 1.2
+        },
+        {
+          "product_name": "Organic Whole Milk",
+          "purchase_count": 89404,
+          "share_pct": 0.49,
+          "lift_vs_overall": 1.16
+        },
+        {
+          "product_name": "Large Lemon",
+          "purchase_count": 82656,
+          "share_pct": 0.46,
+          "lift_vs_overall": 0.97
+        },
+        {
+          "product_name": "Limes",
+          "purchase_count": 80347,
+          "share_pct": 0.44,
+          "lift_vs_overall": 1.03
+        }
+      ],
+      "color": "#10B981",
+      "accent": "#059669",
+      "bg_gradient": "linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(5, 150, 105, 0.05))",
+      "badge": "VIP Loyalists",
+      "icon": "Crown",
+      "tier": "Tier 1 - Highest Value",
+      "churn_risk": "Low (4.2%)",
+      "strategy": "Very frequent shoppers with the highest reorder rate. Protect them with loyalty rewards, early access, VIP perks and subscription tiers.",
+      "key_tactics": [
+        "Exclusive VIP preview access to new organic items",
+        "Milestone-based cashback & free express delivery",
+        "Priority support & personalized basket subscriptions",
+        "Loyalty tier multiplier on weekend purchases"
+      ],
+      "persona_summary": "Daily/weekly grocery shoppers who rely on the platform for their fresh kitchen staples with repeat purchase rates over 70%."
+    },
+    "Occasional Customers": {
+      "name": "Occasional Customers",
+      "count": 29599,
+      "share_pct": 14.35,
+      "cluster_id": 1,
+      "means": {
+        "total_orders": 5.097,
+        "total_products": 18.263,
+        "avg_products_per_order": 3.734,
+        "reorder_rate": 0.283,
+        "avg_days_between_orders": 20.827
+      },
+      "medians": {
+        "total_orders": 4.0,
+        "total_products": 17.0,
+        "avg_products_per_order": 3.667,
+        "reorder_rate": 0.269,
+        "avg_days_between_orders": 21.375
+      },
+      "stds": {
+        "total_orders": 2.281,
+        "total_products": 9.297,
+        "avg_products_per_order": 1.512,
+        "reorder_rate": 0.18,
+        "avg_days_between_orders": 6.775
+      },
+      "top_products": [
+        {
+          "product_name": "Bag of Organic Bananas",
+          "purchase_count": 8335,
+          "share_pct": 1.54,
+          "lift_vs_overall": 1.32
+        },
+        {
+          "product_name": "Banana",
+          "purchase_count": 5347,
+          "share_pct": 0.99,
+          "lift_vs_overall": 0.68
+        },
+        {
+          "product_name": "Organic Baby Spinach",
+          "purchase_count": 4428,
+          "share_pct": 0.82,
+          "lift_vs_overall": 1.1
+        },
+        {
+          "product_name": "Soda",
+          "purchase_count": 4026,
+          "share_pct": 0.74,
+          "lift_vs_overall": 6.75
+        },
+        {
+          "product_name": "Organic Strawberries",
+          "purchase_count": 3973,
+          "share_pct": 0.73,
+          "lift_vs_overall": 0.9
+        },
+        {
+          "product_name": "Strawberries",
+          "purchase_count": 3814,
+          "share_pct": 0.71,
+          "lift_vs_overall": 1.6
+        },
+        {
+          "product_name": "Hass Avocados",
+          "purchase_count": 3410,
+          "share_pct": 0.63,
+          "lift_vs_overall": 4.07
+        },
+        {
+          "product_name": "Raspberries",
+          "purchase_count": 3316,
+          "share_pct": 0.61,
+          "lift_vs_overall": 3.45
+        },
+        {
+          "product_name": "Spring Water",
+          "purchase_count": 2811,
+          "share_pct": 0.52,
+          "lift_vs_overall": 3.01
+        },
+        {
+          "product_name": "Organic Blueberries",
+          "purchase_count": 2495,
+          "share_pct": 0.46,
+          "lift_vs_overall": 1.5
+        }
+      ],
+      "color": "#EF4444",
+      "accent": "#DC2626",
+      "bg_gradient": "linear-gradient(135deg, rgba(239, 68, 68, 0.15), rgba(220, 38, 38, 0.05))",
+      "badge": "At-Risk / Win-Back",
+      "icon": "UserX",
+      "tier": "Tier 4 - Win-Back Priority",
+      "churn_risk": "High (67.4%)",
+      "strategy": "Low activity and the longest gap between orders. Run reactivation win-back campaigns, comeback coupons and surveys.",
+      "key_tactics": [
+        "Aggressive comeback coupons ($15 off next order within 7 days)",
+        "Customer friction exit surveys to identify churn cause",
+        "Seasonal holiday flash sales and loss-leader offers",
+        "SMS reactivations highlighting new store additions"
+      ],
+      "persona_summary": "Infrequent one-off shoppers or lapse-risk customers with long intervals between minimal item purchases."
+    },
+    "Regular Customers": {
+      "name": "Regular Customers",
+      "count": 54872,
+      "share_pct": 26.61,
+      "cluster_id": 3,
+      "means": {
+        "total_orders": 5.153,
+        "total_products": 55.675,
+        "avg_products_per_order": 11.346,
+        "reorder_rate": 0.24,
+        "avg_days_between_orders": 19.673
+      },
+      "medians": {
+        "total_orders": 5.0,
+        "total_products": 51.0,
+        "avg_products_per_order": 10.25,
+        "reorder_rate": 0.235,
+        "avg_days_between_orders": 20.125
+      },
+      "stds": {
+        "total_orders": 2.134,
+        "total_products": 24.746,
+        "avg_products_per_order": 4.527,
+        "reorder_rate": 0.117,
+        "avg_days_between_orders": 6.633
+      },
+      "top_products": [
+        {
+          "product_name": "Banana",
+          "purchase_count": 41856,
+          "share_pct": 1.37,
+          "lift_vs_overall": 0.94
+        },
+        {
+          "product_name": "Bag of Organic Bananas",
+          "purchase_count": 22190,
+          "share_pct": 0.73,
+          "lift_vs_overall": 0.62
+        },
+        {
+          "product_name": "Organic Baby Spinach",
+          "purchase_count": 19935,
+          "share_pct": 0.65,
+          "lift_vs_overall": 0.87
+        },
+        {
+          "product_name": "Organic Avocado",
+          "purchase_count": 18735,
+          "share_pct": 0.61,
+          "lift_vs_overall": 1.12
+        },
+        {
+          "product_name": "Organic Strawberries",
+          "purchase_count": 16819,
+          "share_pct": 0.55,
+          "lift_vs_overall": 0.67
+        },
+        {
+          "product_name": "Large Lemon",
+          "purchase_count": 16589,
+          "share_pct": 0.54,
+          "lift_vs_overall": 1.15
+        },
+        {
+          "product_name": "Organic Hass Avocado",
+          "purchase_count": 13905,
+          "share_pct": 0.46,
+          "lift_vs_overall": 0.69
+        },
+        {
+          "product_name": "Limes",
+          "purchase_count": 13801,
+          "share_pct": 0.45,
+          "lift_vs_overall": 1.04
+        },
+        {
+          "product_name": "Strawberries",
+          "purchase_count": 12876,
+          "share_pct": 0.42,
+          "lift_vs_overall": 0.96
+        },
+        {
+          "product_name": "Cucumber Kirby",
+          "purchase_count": 10620,
+          "share_pct": 0.35,
+          "lift_vs_overall": 1.16
+        }
+      ],
+      "color": "#F59E0B",
+      "accent": "#D97706",
+      "bg_gradient": "linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(217, 119, 6, 0.05))",
+      "badge": "Occasional Steady",
+      "icon": "ShoppingBag",
+      "tier": "Tier 3 - Nudge Required",
+      "churn_risk": "Elevated (38.7%)",
+      "strategy": "Moderate activity with low reorder rate. Nudge them to reorder using smart reminders, personalized restock prompts and category discovery.",
+      "key_tactics": [
+        "Re-engagement notifications when previous items run out",
+        "Category discovery discounts (e.g., 15% off Dairy & Bakery)",
+        "Curated 'Order Again' single-click checkout widget",
+        "Gamified loyalty points on 2nd and 3rd subsequent orders"
+      ],
+      "persona_summary": "Customers with moderate trip frequency who frequently switch between channels and need consistent triggers."
+    }
+  },
+  "orders_by_day": [
+    {
+      "day": "Sunday",
+      "orders": 556705
+    },
+    {
+      "day": "Monday",
+      "orders": 441955
+    },
+    {
+      "day": "Tuesday",
+      "orders": 412400
+    },
+    {
+      "day": "Wednesday",
+      "orders": 401212
+    },
+    {
+      "day": "Thursday",
+      "orders": 425982
+    },
+    {
+      "day": "Friday",
+      "orders": 418848
+    },
+    {
+      "day": "Saturday",
+      "orders": 557772
+    }
+  ],
+  "orders_by_hour": [
+    {
+      "hour": 0,
+      "orders": 21372
+    },
+    {
+      "hour": 1,
+      "orders": 11596
+    },
+    {
+      "hour": 2,
+      "orders": 7070
+    },
+    {
+      "hour": 3,
+      "orders": 5120
+    },
+    {
+      "hour": 4,
+      "orders": 5175
+    },
+    {
+      "hour": 5,
+      "orders": 8972
+    },
+    {
+      "hour": 6,
+      "orders": 28792
+    },
+    {
+      "hour": 7,
+      "orders": 86656
+    },
+    {
+      "hour": 8,
+      "orders": 168321
+    },
+    {
+      "hour": 9,
+      "orders": 243496
+    },
+    {
+      "hour": 10,
+      "orders": 271885
+    },
+    {
+      "hour": 11,
+      "orders": 268006
+    },
+    {
+      "hour": 12,
+      "orders": 256206
+    },
+    {
+      "hour": 13,
+      "orders": 261174
+    },
+    {
+      "hour": 14,
+      "orders": 265556
+    },
+    {
+      "hour": 15,
+      "orders": 266132
+    },
+    {
+      "hour": 16,
+      "orders": 255949
+    },
+    {
+      "hour": 17,
+      "orders": 214080
+    },
+    {
+      "hour": 18,
+      "orders": 170998
+    },
+    {
+      "hour": 19,
+      "orders": 131620
+    },
+    {
+      "hour": 20,
+      "orders": 98109
+    },
+    {
+      "hour": 21,
+      "orders": 73436
+    },
+    {
+      "hour": 22,
+      "orders": 57540
+    },
+    {
+      "hour": 23,
+      "orders": 37613
+    }
+  ],
+  "heatmap_matrix": [
+    {
+      "day": "Sunday",
+      "day_index": 0,
+      "hours": [
+        3701,
+        2008,
+        1224,
+        887,
+        896,
+        1554,
+        4587,
+        13805,
+        26816,
+        38792,
+        47081,
+        50122,
+        47915,
+        48844,
+        49664,
+        49772,
+        47867,
+        37071,
+        29611,
+        22792,
+        16989,
+        12717,
+        9964,
+        6513
+      ]
+    },
+    {
+      "day": "Monday",
+      "day_index": 1,
+      "hours": [
+        2938,
+        1594,
+        972,
+        704,
+        711,
+        1233,
+        3958,
+        11913,
+        23139,
+        35148,
+        39245,
+        38685,
+        35221,
+        35904,
+        36507,
+        36586,
+        35186,
+        29430,
+        23507,
+        18818,
+        14027,
+        10499,
+        7910,
+        5171
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "day_index": 2,
+      "hours": [
+        2742,
+        1488,
+        907,
+        657,
+        664,
+        1151,
+        3693,
+        11116,
+        21592,
+        32797,
+        36621,
+        36098,
+        32866,
+        33503,
+        34065,
+        34139,
+        32833,
+        27462,
+        21935,
+        17559,
+        13089,
+        9797,
+        7381,
+        4825
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "day_index": 3,
+      "hours": [
+        2667,
+        1447,
+        882,
+        639,
+        646,
+        1120,
+        3593,
+        10815,
+        21006,
+        31907,
+        35627,
+        35119,
+        31974,
+        32594,
+        33141,
+        33213,
+        31942,
+        26717,
+        21340,
+        17083,
+        12734,
+        9531,
+        7181,
+        4694
+      ]
+    },
+    {
+      "day": "Thursday",
+      "day_index": 4,
+      "hours": [
+        2832,
+        1537,
+        937,
+        678,
+        686,
+        1189,
+        3815,
+        11482,
+        22303,
+        33877,
+        37827,
+        37287,
+        33948,
+        34606,
+        35187,
+        35263,
+        33914,
+        28366,
+        22658,
+        18138,
+        13520,
+        10120,
+        7624,
+        4984
+      ]
+    },
+    {
+      "day": "Friday",
+      "day_index": 5,
+      "hours": [
+        2784,
+        1511,
+        921,
+        667,
+        674,
+        1169,
+        3751,
+        11290,
+        21930,
+        33310,
+        37193,
+        36663,
+        33380,
+        34027,
+        34598,
+        34673,
+        33346,
+        27891,
+        22278,
+        17834,
+        13293,
+        9950,
+        7497,
+        4900
+      ]
+    },
+    {
+      "day": "Saturday",
+      "day_index": 6,
+      "hours": [
+        3708,
+        2012,
+        1227,
+        888,
+        898,
+        1557,
+        4596,
+        13832,
+        26867,
+        38866,
+        47171,
+        50218,
+        48007,
+        48938,
+        49759,
+        49867,
+        47959,
+        37142,
+        29668,
+        22836,
+        17022,
+        12741,
+        9983,
+        6526
+      ]
+    }
+  ]
+}

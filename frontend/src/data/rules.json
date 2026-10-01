@@ -1,0 +1,1529 @@
+{
+  "rules": [
+    {
+      "id": "rule_1",
+      "antecedent": "Organic Yellow Onion",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.03549,
+      "consequent_support": 0.08217,
+      "support": 0.00521,
+      "confidence": 0.1468,
+      "lift": 1.787,
+      "leverage": 0.00229,
+      "conviction": 1.076,
+      "zhangs_metric": 0.4565,
+      "jaccard": 0.0463,
+      "kulczynski": 0.1051
+    },
+    {
+      "id": "rule_2",
+      "antecedent": "Organic Yellow Onion",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.03549,
+      "consequent_support": 0.0753,
+      "support": 0.00619,
+      "confidence": 0.17444,
+      "lift": 2.317,
+      "leverage": 0.00352,
+      "conviction": 1.12,
+      "zhangs_metric": 0.5893,
+      "jaccard": 0.0592,
+      "kulczynski": 0.1283
+    },
+    {
+      "id": "rule_3",
+      "antecedent": "Organic Yellow Onion",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.03549,
+      "consequent_support": 0.06651,
+      "support": 0.00622,
+      "confidence": 0.17526,
+      "lift": 2.635,
+      "leverage": 0.00386,
+      "conviction": 1.132,
+      "zhangs_metric": 0.6433,
+      "jaccard": 0.0649,
+      "kulczynski": 0.1344
+    },
+    {
+      "id": "rule_4",
+      "antecedent": "Organic Cucumber",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.02501,
+      "consequent_support": 0.08217,
+      "support": 0.00512,
+      "confidence": 0.2048,
+      "lift": 2.492,
+      "leverage": 0.00307,
+      "conviction": 1.154,
+      "zhangs_metric": 0.6141,
+      "jaccard": 0.0502,
+      "kulczynski": 0.1336
+    },
+    {
+      "id": "rule_5",
+      "antecedent": "Organic Cucumber",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.02501,
+      "consequent_support": 0.06651,
+      "support": 0.00542,
+      "confidence": 0.21683,
+      "lift": 3.26,
+      "leverage": 0.00376,
+      "conviction": 1.192,
+      "zhangs_metric": 0.711,
+      "jaccard": 0.063,
+      "kulczynski": 0.1492
+    },
+    {
+      "id": "rule_6",
+      "antecedent": "Organic Strawberries",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.08217,
+      "consequent_support": 0.0753,
+      "support": 0.01191,
+      "confidence": 0.14488,
+      "lift": 1.924,
+      "leverage": 0.00572,
+      "conviction": 1.081,
+      "zhangs_metric": 0.5233,
+      "jaccard": 0.0818,
+      "kulczynski": 0.1515
+    },
+    {
+      "id": "rule_7",
+      "antecedent": "Organic Baby Spinach",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.0753,
+      "consequent_support": 0.08217,
+      "support": 0.01191,
+      "confidence": 0.15811,
+      "lift": 1.924,
+      "leverage": 0.00572,
+      "conviction": 1.09,
+      "zhangs_metric": 0.5194,
+      "jaccard": 0.0818,
+      "kulczynski": 0.1515
+    },
+    {
+      "id": "rule_8",
+      "antecedent": "Large Lemon",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.04752,
+      "consequent_support": 0.0753,
+      "support": 0.00704,
+      "confidence": 0.14809,
+      "lift": 1.967,
+      "leverage": 0.00346,
+      "conviction": 1.085,
+      "zhangs_metric": 0.5161,
+      "jaccard": 0.0608,
+      "kulczynski": 0.1208
+    },
+    {
+      "id": "rule_9",
+      "antecedent": "Organic Avocado",
+      "consequent": "Large Lemon",
+      "antecedent_support": 0.05517,
+      "consequent_support": 0.04752,
+      "support": 0.00757,
+      "confidence": 0.13729,
+      "lift": 2.889,
+      "leverage": 0.00495,
+      "conviction": 1.104,
+      "zhangs_metric": 0.692,
+      "jaccard": 0.0796,
+      "kulczynski": 0.1483
+    },
+    {
+      "id": "rule_10",
+      "antecedent": "Large Lemon",
+      "consequent": "Organic Avocado",
+      "antecedent_support": 0.04752,
+      "consequent_support": 0.05517,
+      "support": 0.00757,
+      "confidence": 0.15937,
+      "lift": 2.889,
+      "leverage": 0.00495,
+      "conviction": 1.124,
+      "zhangs_metric": 0.6865,
+      "jaccard": 0.0796,
+      "kulczynski": 0.1483
+    },
+    {
+      "id": "rule_11",
+      "antecedent": "Large Lemon",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.04752,
+      "consequent_support": 0.08217,
+      "support": 0.005,
+      "confidence": 0.10531,
+      "lift": 1.282,
+      "leverage": 0.0011,
+      "conviction": 1.026,
+      "zhangs_metric": 0.2307,
+      "jaccard": 0.0401,
+      "kulczynski": 0.0831
+    },
+    {
+      "id": "rule_12",
+      "antecedent": "Organic Blueberries",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.03131,
+      "consequent_support": 0.08217,
+      "support": 0.00739,
+      "confidence": 0.23609,
+      "lift": 2.873,
+      "leverage": 0.00482,
+      "conviction": 1.201,
+      "zhangs_metric": 0.673,
+      "jaccard": 0.0697,
+      "kulczynski": 0.163
+    },
+    {
+      "id": "rule_13",
+      "antecedent": "Organic Baby Spinach",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.0753,
+      "consequent_support": 0.06651,
+      "support": 0.01093,
+      "confidence": 0.14516,
+      "lift": 2.182,
+      "leverage": 0.00592,
+      "conviction": 1.092,
+      "zhangs_metric": 0.5859,
+      "jaccard": 0.0835,
+      "kulczynski": 0.1547
+    },
+    {
+      "id": "rule_14",
+      "antecedent": "Organic Hass Avocado",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.06651,
+      "consequent_support": 0.0753,
+      "support": 0.01093,
+      "confidence": 0.16433,
+      "lift": 2.182,
+      "leverage": 0.00592,
+      "conviction": 1.107,
+      "zhangs_metric": 0.5804,
+      "jaccard": 0.0835,
+      "kulczynski": 0.1547
+    },
+    {
+      "id": "rule_15",
+      "antecedent": "Organic Strawberries",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.08217,
+      "consequent_support": 0.06651,
+      "support": 0.0127,
+      "confidence": 0.15456,
+      "lift": 2.324,
+      "leverage": 0.00723,
+      "conviction": 1.104,
+      "zhangs_metric": 0.6207,
+      "jaccard": 0.0934,
+      "kulczynski": 0.1728
+    },
+    {
+      "id": "rule_16",
+      "antecedent": "Organic Hass Avocado",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.06651,
+      "consequent_support": 0.08217,
+      "support": 0.0127,
+      "confidence": 0.19094,
+      "lift": 2.324,
+      "leverage": 0.00723,
+      "conviction": 1.134,
+      "zhangs_metric": 0.6103,
+      "jaccard": 0.0934,
+      "kulczynski": 0.1728
+    },
+    {
+      "id": "rule_17",
+      "antecedent": "Organic Strawberries",
+      "consequent": "Organic Raspberries",
+      "antecedent_support": 0.08217,
+      "consequent_support": 0.04268,
+      "support": 0.01047,
+      "confidence": 0.12748,
+      "lift": 2.987,
+      "leverage": 0.00697,
+      "conviction": 1.097,
+      "zhangs_metric": 0.7248,
+      "jaccard": 0.0916,
+      "kulczynski": 0.1865
+    },
+    {
+      "id": "rule_18",
+      "antecedent": "Organic Raspberries",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.04268,
+      "consequent_support": 0.08217,
+      "support": 0.01047,
+      "confidence": 0.24543,
+      "lift": 2.987,
+      "leverage": 0.00697,
+      "conviction": 1.216,
+      "zhangs_metric": 0.6949,
+      "jaccard": 0.0916,
+      "kulczynski": 0.1865
+    },
+    {
+      "id": "rule_19",
+      "antecedent": "Organic Hass Avocado",
+      "consequent": "Organic Raspberries",
+      "antecedent_support": 0.06651,
+      "consequent_support": 0.04268,
+      "support": 0.00798,
+      "confidence": 0.12002,
+      "lift": 2.812,
+      "leverage": 0.00514,
+      "conviction": 1.088,
+      "zhangs_metric": 0.6903,
+      "jaccard": 0.0789,
+      "kulczynski": 0.1535
+    },
+    {
+      "id": "rule_20",
+      "antecedent": "Organic Raspberries",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.04268,
+      "consequent_support": 0.06651,
+      "support": 0.00798,
+      "confidence": 0.18704,
+      "lift": 2.812,
+      "leverage": 0.00514,
+      "conviction": 1.148,
+      "zhangs_metric": 0.6731,
+      "jaccard": 0.0789,
+      "kulczynski": 0.1535
+    },
+    {
+      "id": "rule_21",
+      "antecedent": "Organic Raspberries",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.04268,
+      "consequent_support": 0.0753,
+      "support": 0.00558,
+      "confidence": 0.13086,
+      "lift": 1.738,
+      "leverage": 0.00237,
+      "conviction": 1.064,
+      "zhangs_metric": 0.4435,
+      "jaccard": 0.0497,
+      "kulczynski": 0.1025
+    },
+    {
+      "id": "rule_22",
+      "antecedent": "Limes",
+      "consequent": "Large Lemon",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.04752,
+      "support": 0.00851,
+      "confidence": 0.19406,
+      "lift": 4.083,
+      "leverage": 0.00643,
+      "conviction": 1.182,
+      "zhangs_metric": 0.7897,
+      "jaccard": 0.1027,
+      "kulczynski": 0.1866
+    },
+    {
+      "id": "rule_23",
+      "antecedent": "Large Lemon",
+      "consequent": "Limes",
+      "antecedent_support": 0.04752,
+      "consequent_support": 0.04386,
+      "support": 0.00851,
+      "confidence": 0.17908,
+      "lift": 4.083,
+      "leverage": 0.00643,
+      "conviction": 1.165,
+      "zhangs_metric": 0.7928,
+      "jaccard": 0.1027,
+      "kulczynski": 0.1866
+    },
+    {
+      "id": "rule_24",
+      "antecedent": "Limes",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.0753,
+      "support": 0.00655,
+      "confidence": 0.14926,
+      "lift": 1.982,
+      "leverage": 0.00324,
+      "conviction": 1.087,
+      "zhangs_metric": 0.5183,
+      "jaccard": 0.0581,
+      "kulczynski": 0.1181
+    },
+    {
+      "id": "rule_25",
+      "antecedent": "Limes",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.06651,
+      "support": 0.00625,
+      "confidence": 0.14244,
+      "lift": 2.142,
+      "leverage": 0.00333,
+      "conviction": 1.089,
+      "zhangs_metric": 0.5575,
+      "jaccard": 0.06,
+      "kulczynski": 0.1182
+    },
+    {
+      "id": "rule_26",
+      "antecedent": "Organic Avocado",
+      "consequent": "Limes",
+      "antecedent_support": 0.05517,
+      "consequent_support": 0.04386,
+      "support": 0.00698,
+      "confidence": 0.12658,
+      "lift": 2.886,
+      "leverage": 0.00456,
+      "conviction": 1.095,
+      "zhangs_metric": 0.6917,
+      "jaccard": 0.0759,
+      "kulczynski": 0.1429
+    },
+    {
+      "id": "rule_27",
+      "antecedent": "Limes",
+      "consequent": "Organic Avocado",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.05517,
+      "support": 0.00698,
+      "confidence": 0.15922,
+      "lift": 2.886,
+      "leverage": 0.00456,
+      "conviction": 1.124,
+      "zhangs_metric": 0.6835,
+      "jaccard": 0.0759,
+      "kulczynski": 0.1429
+    },
+    {
+      "id": "rule_28",
+      "antecedent": "Limes",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.08217,
+      "support": 0.0059,
+      "confidence": 0.1346,
+      "lift": 1.638,
+      "leverage": 0.0023,
+      "conviction": 1.061,
+      "zhangs_metric": 0.4074,
+      "jaccard": 0.0491,
+      "kulczynski": 0.1032
+    },
+    {
+      "id": "rule_29",
+      "antecedent": "Organic Zucchini",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.03289,
+      "consequent_support": 0.0753,
+      "support": 0.00639,
+      "confidence": 0.19437,
+      "lift": 2.581,
+      "leverage": 0.00392,
+      "conviction": 1.148,
+      "zhangs_metric": 0.6334,
+      "jaccard": 0.0628,
+      "kulczynski": 0.1396
+    },
+    {
+      "id": "rule_30",
+      "antecedent": "Organic Zucchini",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.03289,
+      "consequent_support": 0.06651,
+      "support": 0.00522,
+      "confidence": 0.15885,
+      "lift": 2.388,
+      "leverage": 0.00304,
+      "conviction": 1.11,
+      "zhangs_metric": 0.6011,
+      "jaccard": 0.0555,
+      "kulczynski": 0.1187
+    },
+    {
+      "id": "rule_31",
+      "antecedent": "Limes",
+      "consequent": "Organic Cilantro",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.02185,
+      "support": 0.0056,
+      "confidence": 0.12778,
+      "lift": 5.849,
+      "leverage": 0.00465,
+      "conviction": 1.121,
+      "zhangs_metric": 0.8671,
+      "jaccard": 0.0932,
+      "kulczynski": 0.1921
+    },
+    {
+      "id": "rule_32",
+      "antecedent": "Organic Cilantro",
+      "consequent": "Limes",
+      "antecedent_support": 0.02185,
+      "consequent_support": 0.04386,
+      "support": 0.0056,
+      "confidence": 0.25651,
+      "lift": 5.849,
+      "leverage": 0.00465,
+      "conviction": 1.286,
+      "zhangs_metric": 0.8475,
+      "jaccard": 0.0932,
+      "kulczynski": 0.1921
+    },
+    {
+      "id": "rule_33",
+      "antecedent": "Organic Baby Spinach",
+      "consequent": "Organic Avocado",
+      "antecedent_support": 0.0753,
+      "consequent_support": 0.05517,
+      "support": 0.0098,
+      "confidence": 0.13019,
+      "lift": 2.36,
+      "leverage": 0.00565,
+      "conviction": 1.086,
+      "zhangs_metric": 0.6232,
+      "jaccard": 0.0812,
+      "kulczynski": 0.1539
+    },
+    {
+      "id": "rule_34",
+      "antecedent": "Organic Avocado",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.05517,
+      "consequent_support": 0.0753,
+      "support": 0.0098,
+      "confidence": 0.17769,
+      "lift": 2.36,
+      "leverage": 0.00565,
+      "conviction": 1.125,
+      "zhangs_metric": 0.6099,
+      "jaccard": 0.0812,
+      "kulczynski": 0.1539
+    },
+    {
+      "id": "rule_35",
+      "antecedent": "Organic Avocado",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.05517,
+      "consequent_support": 0.08217,
+      "support": 0.00742,
+      "confidence": 0.1345,
+      "lift": 1.637,
+      "leverage": 0.00289,
+      "conviction": 1.06,
+      "zhangs_metric": 0.4118,
+      "jaccard": 0.0571,
+      "kulczynski": 0.1124
+    },
+    {
+      "id": "rule_36",
+      "antecedent": "Organic Whole Milk",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.04301,
+      "consequent_support": 0.0753,
+      "support": 0.00527,
+      "confidence": 0.12255,
+      "lift": 1.628,
+      "leverage": 0.00203,
+      "conviction": 1.054,
+      "zhangs_metric": 0.4029,
+      "jaccard": 0.0466,
+      "kulczynski": 0.0963
+    },
+    {
+      "id": "rule_37",
+      "antecedent": "Organic Whole Milk",
+      "consequent": "Organic Strawberries",
+      "antecedent_support": 0.04301,
+      "consequent_support": 0.08217,
+      "support": 0.00739,
+      "confidence": 0.17191,
+      "lift": 2.092,
+      "leverage": 0.00386,
+      "conviction": 1.108,
+      "zhangs_metric": 0.5455,
+      "jaccard": 0.0628,
+      "kulczynski": 0.1309
+    },
+    {
+      "id": "rule_38",
+      "antecedent": "Organic Garlic",
+      "consequent": "Organic Yellow Onion",
+      "antecedent_support": 0.03425,
+      "consequent_support": 0.03549,
+      "support": 0.00707,
+      "confidence": 0.20633,
+      "lift": 5.814,
+      "leverage": 0.00585,
+      "conviction": 1.215,
+      "zhangs_metric": 0.8574,
+      "jaccard": 0.1128,
+      "kulczynski": 0.2027
+    },
+    {
+      "id": "rule_39",
+      "antecedent": "Organic Yellow Onion",
+      "consequent": "Organic Garlic",
+      "antecedent_support": 0.03549,
+      "consequent_support": 0.03425,
+      "support": 0.00707,
+      "confidence": 0.19912,
+      "lift": 5.814,
+      "leverage": 0.00585,
+      "conviction": 1.206,
+      "zhangs_metric": 0.8585,
+      "jaccard": 0.1128,
+      "kulczynski": 0.2027
+    },
+    {
+      "id": "rule_40",
+      "antecedent": "Organic Garlic",
+      "consequent": "Organic Baby Spinach",
+      "antecedent_support": 0.03425,
+      "consequent_support": 0.0753,
+      "support": 0.00652,
+      "confidence": 0.19027,
+      "lift": 2.527,
+      "leverage": 0.00394,
+      "conviction": 1.142,
+      "zhangs_metric": 0.6257,
+      "jaccard": 0.0633,
+      "kulczynski": 0.1384
+    },
+    {
+      "id": "rule_41",
+      "antecedent": "Organic Garlic",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.03425,
+      "consequent_support": 0.06651,
+      "support": 0.00554,
+      "confidence": 0.16166,
+      "lift": 2.431,
+      "leverage": 0.00326,
+      "conviction": 1.113,
+      "zhangs_metric": 0.6094,
+      "jaccard": 0.0581,
+      "kulczynski": 0.1225
+    },
+    {
+      "id": "rule_42",
+      "antecedent": "Organic Garlic",
+      "consequent": "Limes",
+      "antecedent_support": 0.03425,
+      "consequent_support": 0.04386,
+      "support": 0.00503,
+      "confidence": 0.14692,
+      "lift": 3.35,
+      "leverage": 0.00353,
+      "conviction": 1.121,
+      "zhangs_metric": 0.7264,
+      "jaccard": 0.0689,
+      "kulczynski": 0.1308
+    },
+    {
+      "id": "rule_43",
+      "antecedent": "Limes",
+      "consequent": "Organic Garlic",
+      "antecedent_support": 0.04386,
+      "consequent_support": 0.03425,
+      "support": 0.00503,
+      "confidence": 0.11474,
+      "lift": 3.35,
+      "leverage": 0.00353,
+      "conviction": 1.091,
+      "zhangs_metric": 0.7337,
+      "jaccard": 0.0689,
+      "kulczynski": 0.1308
+    },
+    {
+      "id": "rule_44",
+      "antecedent": "Organic Lemon",
+      "consequent": "Organic Hass Avocado",
+      "antecedent_support": 0.02734,
+      "consequent_support": 0.06651,
+      "support": 0.00667,
+      "confidence": 0.24397,
+      "lift": 3.668,
+      "leverage": 0.00485,
+      "conviction": 1.235,
+      "zhangs_metric": 0.7478,
+      "jaccard": 0.0765,
+      "kulczynski": 0.1721
+    },
+    {
+      "id": "rule_45",
+      "antecedent": "Organic Hass Avocado",
+      "consequent": "Organic Lemon",
+      "antecedent_support": 0.06651,
+      "consequent_support": 0.02734,
+      "support": 0.00667,
+      "confidence": 0.10028,
+      "lift": 3.668,
+      "leverage": 0.00485,
+      "conviction": 1.081,
+      "zhangs_metric": 0.7792,
+      "jaccard": 0.0765,
+      "kulczynski": 0.1721
+    }
+  ],
+  "recommendations_by_product": {
+    "Organic Yellow Onion": [
+      {
+        "product": "Organic Garlic",
+        "support_pct": 0.71,
+        "confidence_pct": 19.91,
+        "lift": 5.814,
+        "leverage": 0.00585,
+        "jaccard": 0.1128
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.62,
+        "confidence_pct": 17.53,
+        "lift": 2.635,
+        "leverage": 0.00386,
+        "jaccard": 0.0649
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.62,
+        "confidence_pct": 17.44,
+        "lift": 2.317,
+        "leverage": 0.00352,
+        "jaccard": 0.0592
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.52,
+        "confidence_pct": 14.68,
+        "lift": 1.787,
+        "leverage": 0.00229,
+        "jaccard": 0.0463
+      }
+    ],
+    "Organic Cucumber": [
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.54,
+        "confidence_pct": 21.68,
+        "lift": 3.26,
+        "leverage": 0.00376,
+        "jaccard": 0.063
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.51,
+        "confidence_pct": 20.48,
+        "lift": 2.492,
+        "leverage": 0.00307,
+        "jaccard": 0.0502
+      }
+    ],
+    "Organic Strawberries": [
+      {
+        "product": "Organic Raspberries",
+        "support_pct": 1.05,
+        "confidence_pct": 12.75,
+        "lift": 2.987,
+        "leverage": 0.00697,
+        "jaccard": 0.0916
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 1.27,
+        "confidence_pct": 15.46,
+        "lift": 2.324,
+        "leverage": 0.00723,
+        "jaccard": 0.0934
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 1.19,
+        "confidence_pct": 14.49,
+        "lift": 1.924,
+        "leverage": 0.00572,
+        "jaccard": 0.0818
+      }
+    ],
+    "Organic Baby Spinach": [
+      {
+        "product": "Organic Avocado",
+        "support_pct": 0.98,
+        "confidence_pct": 13.02,
+        "lift": 2.36,
+        "leverage": 0.00565,
+        "jaccard": 0.0812
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 1.09,
+        "confidence_pct": 14.52,
+        "lift": 2.182,
+        "leverage": 0.00592,
+        "jaccard": 0.0835
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 1.19,
+        "confidence_pct": 15.81,
+        "lift": 1.924,
+        "leverage": 0.00572,
+        "jaccard": 0.0818
+      }
+    ],
+    "Large Lemon": [
+      {
+        "product": "Limes",
+        "support_pct": 0.85,
+        "confidence_pct": 17.91,
+        "lift": 4.083,
+        "leverage": 0.00643,
+        "jaccard": 0.1027
+      },
+      {
+        "product": "Organic Avocado",
+        "support_pct": 0.76,
+        "confidence_pct": 15.94,
+        "lift": 2.889,
+        "leverage": 0.00495,
+        "jaccard": 0.0796
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.7,
+        "confidence_pct": 14.81,
+        "lift": 1.967,
+        "leverage": 0.00346,
+        "jaccard": 0.0608
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.5,
+        "confidence_pct": 10.53,
+        "lift": 1.282,
+        "leverage": 0.0011,
+        "jaccard": 0.0401
+      }
+    ],
+    "Organic Avocado": [
+      {
+        "product": "Large Lemon",
+        "support_pct": 0.76,
+        "confidence_pct": 13.73,
+        "lift": 2.889,
+        "leverage": 0.00495,
+        "jaccard": 0.0796
+      },
+      {
+        "product": "Limes",
+        "support_pct": 0.7,
+        "confidence_pct": 12.66,
+        "lift": 2.886,
+        "leverage": 0.00456,
+        "jaccard": 0.0759
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.98,
+        "confidence_pct": 17.77,
+        "lift": 2.36,
+        "leverage": 0.00565,
+        "jaccard": 0.0812
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.74,
+        "confidence_pct": 13.45,
+        "lift": 1.637,
+        "leverage": 0.00289,
+        "jaccard": 0.0571
+      }
+    ],
+    "Organic Blueberries": [
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.74,
+        "confidence_pct": 23.61,
+        "lift": 2.873,
+        "leverage": 0.00482,
+        "jaccard": 0.0697
+      }
+    ],
+    "Organic Hass Avocado": [
+      {
+        "product": "Organic Lemon",
+        "support_pct": 0.67,
+        "confidence_pct": 10.03,
+        "lift": 3.668,
+        "leverage": 0.00485,
+        "jaccard": 0.0765
+      },
+      {
+        "product": "Organic Raspberries",
+        "support_pct": 0.8,
+        "confidence_pct": 12.0,
+        "lift": 2.812,
+        "leverage": 0.00514,
+        "jaccard": 0.0789
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 1.27,
+        "confidence_pct": 19.09,
+        "lift": 2.324,
+        "leverage": 0.00723,
+        "jaccard": 0.0934
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 1.09,
+        "confidence_pct": 16.43,
+        "lift": 2.182,
+        "leverage": 0.00592,
+        "jaccard": 0.0835
+      }
+    ],
+    "Organic Raspberries": [
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 1.05,
+        "confidence_pct": 24.54,
+        "lift": 2.987,
+        "leverage": 0.00697,
+        "jaccard": 0.0916
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.8,
+        "confidence_pct": 18.7,
+        "lift": 2.812,
+        "leverage": 0.00514,
+        "jaccard": 0.0789
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.56,
+        "confidence_pct": 13.09,
+        "lift": 1.738,
+        "leverage": 0.00237,
+        "jaccard": 0.0497
+      }
+    ],
+    "Limes": [
+      {
+        "product": "Organic Cilantro",
+        "support_pct": 0.56,
+        "confidence_pct": 12.78,
+        "lift": 5.849,
+        "leverage": 0.00465,
+        "jaccard": 0.0932
+      },
+      {
+        "product": "Large Lemon",
+        "support_pct": 0.85,
+        "confidence_pct": 19.41,
+        "lift": 4.083,
+        "leverage": 0.00643,
+        "jaccard": 0.1027
+      },
+      {
+        "product": "Organic Garlic",
+        "support_pct": 0.5,
+        "confidence_pct": 11.47,
+        "lift": 3.35,
+        "leverage": 0.00353,
+        "jaccard": 0.0689
+      },
+      {
+        "product": "Organic Avocado",
+        "support_pct": 0.7,
+        "confidence_pct": 15.92,
+        "lift": 2.886,
+        "leverage": 0.00456,
+        "jaccard": 0.0759
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.62,
+        "confidence_pct": 14.24,
+        "lift": 2.142,
+        "leverage": 0.00333,
+        "jaccard": 0.06
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.66,
+        "confidence_pct": 14.93,
+        "lift": 1.982,
+        "leverage": 0.00324,
+        "jaccard": 0.0581
+      },
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.59,
+        "confidence_pct": 13.46,
+        "lift": 1.638,
+        "leverage": 0.0023,
+        "jaccard": 0.0491
+      }
+    ],
+    "Organic Zucchini": [
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.64,
+        "confidence_pct": 19.44,
+        "lift": 2.581,
+        "leverage": 0.00392,
+        "jaccard": 0.0628
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.52,
+        "confidence_pct": 15.88,
+        "lift": 2.388,
+        "leverage": 0.00304,
+        "jaccard": 0.0555
+      }
+    ],
+    "Organic Cilantro": [
+      {
+        "product": "Limes",
+        "support_pct": 0.56,
+        "confidence_pct": 25.65,
+        "lift": 5.849,
+        "leverage": 0.00465,
+        "jaccard": 0.0932
+      }
+    ],
+    "Organic Whole Milk": [
+      {
+        "product": "Organic Strawberries",
+        "support_pct": 0.74,
+        "confidence_pct": 17.19,
+        "lift": 2.092,
+        "leverage": 0.00386,
+        "jaccard": 0.0628
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.53,
+        "confidence_pct": 12.26,
+        "lift": 1.628,
+        "leverage": 0.00203,
+        "jaccard": 0.0466
+      }
+    ],
+    "Organic Garlic": [
+      {
+        "product": "Organic Yellow Onion",
+        "support_pct": 0.71,
+        "confidence_pct": 20.63,
+        "lift": 5.814,
+        "leverage": 0.00585,
+        "jaccard": 0.1128
+      },
+      {
+        "product": "Limes",
+        "support_pct": 0.5,
+        "confidence_pct": 14.69,
+        "lift": 3.35,
+        "leverage": 0.00353,
+        "jaccard": 0.0689
+      },
+      {
+        "product": "Organic Baby Spinach",
+        "support_pct": 0.65,
+        "confidence_pct": 19.03,
+        "lift": 2.527,
+        "leverage": 0.00394,
+        "jaccard": 0.0633
+      },
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.55,
+        "confidence_pct": 16.17,
+        "lift": 2.431,
+        "leverage": 0.00326,
+        "jaccard": 0.0581
+      }
+    ],
+    "Organic Lemon": [
+      {
+        "product": "Organic Hass Avocado",
+        "support_pct": 0.67,
+        "confidence_pct": 24.4,
+        "lift": 3.668,
+        "leverage": 0.00485,
+        "jaccard": 0.0765
+      }
+    ]
+  },
+  "available_antecedents": [
+    "Large Lemon",
+    "Limes",
+    "Organic Avocado",
+    "Organic Baby Spinach",
+    "Organic Blueberries",
+    "Organic Cilantro",
+    "Organic Cucumber",
+    "Organic Garlic",
+    "Organic Hass Avocado",
+    "Organic Lemon",
+    "Organic Raspberries",
+    "Organic Strawberries",
+    "Organic Whole Milk",
+    "Organic Yellow Onion",
+    "Organic Zucchini"
+  ],
+  "network_graph": {
+    "nodes": [
+      {
+        "id": "Organic Yellow Onion",
+        "name": "Organic Yellow Onion",
+        "is_organic": true,
+        "degree": 5,
+        "max_lift": 5.814,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Strawberries",
+        "name": "Organic Strawberries",
+        "is_organic": true,
+        "degree": 13,
+        "max_lift": 2.987,
+        "category": "Pantry & Dairy"
+      },
+      {
+        "id": "Organic Baby Spinach",
+        "name": "Organic Baby Spinach",
+        "is_organic": true,
+        "degree": 13,
+        "max_lift": 2.581,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Hass Avocado",
+        "name": "Organic Hass Avocado",
+        "is_organic": true,
+        "degree": 13,
+        "max_lift": 3.668,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Cucumber",
+        "name": "Organic Cucumber",
+        "is_organic": true,
+        "degree": 2,
+        "max_lift": 3.26,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Large Lemon",
+        "name": "Large Lemon",
+        "is_organic": false,
+        "degree": 6,
+        "max_lift": 4.083,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Avocado",
+        "name": "Organic Avocado",
+        "is_organic": true,
+        "degree": 7,
+        "max_lift": 2.889,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Blueberries",
+        "name": "Organic Blueberries",
+        "is_organic": true,
+        "degree": 1,
+        "max_lift": 2.873,
+        "category": "Pantry & Dairy"
+      },
+      {
+        "id": "Organic Raspberries",
+        "name": "Organic Raspberries",
+        "is_organic": true,
+        "degree": 5,
+        "max_lift": 2.987,
+        "category": "Pantry & Dairy"
+      },
+      {
+        "id": "Limes",
+        "name": "Limes",
+        "is_organic": false,
+        "degree": 11,
+        "max_lift": 5.849,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Zucchini",
+        "name": "Organic Zucchini",
+        "is_organic": true,
+        "degree": 2,
+        "max_lift": 2.581,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Cilantro",
+        "name": "Organic Cilantro",
+        "is_organic": true,
+        "degree": 2,
+        "max_lift": 5.849,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Whole Milk",
+        "name": "Organic Whole Milk",
+        "is_organic": true,
+        "degree": 2,
+        "max_lift": 2.092,
+        "category": "Pantry & Dairy"
+      },
+      {
+        "id": "Organic Garlic",
+        "name": "Organic Garlic",
+        "is_organic": true,
+        "degree": 6,
+        "max_lift": 5.814,
+        "category": "Produce & Fresh"
+      },
+      {
+        "id": "Organic Lemon",
+        "name": "Organic Lemon",
+        "is_organic": true,
+        "degree": 2,
+        "max_lift": 3.668,
+        "category": "Produce & Fresh"
+      }
+    ],
+    "links": [
+      {
+        "source": "Organic Yellow Onion",
+        "target": "Organic Strawberries",
+        "lift": 1.787,
+        "confidence": 0.1468,
+        "support": 0.00521
+      },
+      {
+        "source": "Organic Yellow Onion",
+        "target": "Organic Baby Spinach",
+        "lift": 2.317,
+        "confidence": 0.17444,
+        "support": 0.00619
+      },
+      {
+        "source": "Organic Yellow Onion",
+        "target": "Organic Hass Avocado",
+        "lift": 2.635,
+        "confidence": 0.17526,
+        "support": 0.00622
+      },
+      {
+        "source": "Organic Cucumber",
+        "target": "Organic Strawberries",
+        "lift": 2.492,
+        "confidence": 0.2048,
+        "support": 0.00512
+      },
+      {
+        "source": "Organic Cucumber",
+        "target": "Organic Hass Avocado",
+        "lift": 3.26,
+        "confidence": 0.21683,
+        "support": 0.00542
+      },
+      {
+        "source": "Organic Strawberries",
+        "target": "Organic Baby Spinach",
+        "lift": 1.924,
+        "confidence": 0.14488,
+        "support": 0.01191
+      },
+      {
+        "source": "Organic Baby Spinach",
+        "target": "Organic Strawberries",
+        "lift": 1.924,
+        "confidence": 0.15811,
+        "support": 0.01191
+      },
+      {
+        "source": "Large Lemon",
+        "target": "Organic Baby Spinach",
+        "lift": 1.967,
+        "confidence": 0.14809,
+        "support": 0.00704
+      },
+      {
+        "source": "Organic Avocado",
+        "target": "Large Lemon",
+        "lift": 2.889,
+        "confidence": 0.13729,
+        "support": 0.00757
+      },
+      {
+        "source": "Large Lemon",
+        "target": "Organic Avocado",
+        "lift": 2.889,
+        "confidence": 0.15937,
+        "support": 0.00757
+      },
+      {
+        "source": "Large Lemon",
+        "target": "Organic Strawberries",
+        "lift": 1.282,
+        "confidence": 0.10531,
+        "support": 0.005
+      },
+      {
+        "source": "Organic Blueberries",
+        "target": "Organic Strawberries",
+        "lift": 2.873,
+        "confidence": 0.23609,
+        "support": 0.00739
+      },
+      {
+        "source": "Organic Baby Spinach",
+        "target": "Organic Hass Avocado",
+        "lift": 2.182,
+        "confidence": 0.14516,
+        "support": 0.01093
+      },
+      {
+        "source": "Organic Hass Avocado",
+        "target": "Organic Baby Spinach",
+        "lift": 2.182,
+        "confidence": 0.16433,
+        "support": 0.01093
+      },
+      {
+        "source": "Organic Strawberries",
+        "target": "Organic Hass Avocado",
+        "lift": 2.324,
+        "confidence": 0.15456,
+        "support": 0.0127
+      },
+      {
+        "source": "Organic Hass Avocado",
+        "target": "Organic Strawberries",
+        "lift": 2.324,
+        "confidence": 0.19094,
+        "support": 0.0127
+      },
+      {
+        "source": "Organic Strawberries",
+        "target": "Organic Raspberries",
+        "lift": 2.987,
+        "confidence": 0.12748,
+        "support": 0.01047
+      },
+      {
+        "source": "Organic Raspberries",
+        "target": "Organic Strawberries",
+        "lift": 2.987,
+        "confidence": 0.24543,
+        "support": 0.01047
+      },
+      {
+        "source": "Organic Hass Avocado",
+        "target": "Organic Raspberries",
+        "lift": 2.812,
+        "confidence": 0.12002,
+        "support": 0.00798
+      },
+      {
+        "source": "Organic Raspberries",
+        "target": "Organic Hass Avocado",
+        "lift": 2.812,
+        "confidence": 0.18704,
+        "support": 0.00798
+      },
+      {
+        "source": "Organic Raspberries",
+        "target": "Organic Baby Spinach",
+        "lift": 1.738,
+        "confidence": 0.13086,
+        "support": 0.00558
+      },
+      {
+        "source": "Limes",
+        "target": "Large Lemon",
+        "lift": 4.083,
+        "confidence": 0.19406,
+        "support": 0.00851
+      },
+      {
+        "source": "Large Lemon",
+        "target": "Limes",
+        "lift": 4.083,
+        "confidence": 0.17908,
+        "support": 0.00851
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Baby Spinach",
+        "lift": 1.982,
+        "confidence": 0.14926,
+        "support": 0.00655
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Hass Avocado",
+        "lift": 2.142,
+        "confidence": 0.14244,
+        "support": 0.00625
+      },
+      {
+        "source": "Organic Avocado",
+        "target": "Limes",
+        "lift": 2.886,
+        "confidence": 0.12658,
+        "support": 0.00698
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Avocado",
+        "lift": 2.886,
+        "confidence": 0.15922,
+        "support": 0.00698
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Strawberries",
+        "lift": 1.638,
+        "confidence": 0.1346,
+        "support": 0.0059
+      },
+      {
+        "source": "Organic Zucchini",
+        "target": "Organic Baby Spinach",
+        "lift": 2.581,
+        "confidence": 0.19437,
+        "support": 0.00639
+      },
+      {
+        "source": "Organic Zucchini",
+        "target": "Organic Hass Avocado",
+        "lift": 2.388,
+        "confidence": 0.15885,
+        "support": 0.00522
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Cilantro",
+        "lift": 5.849,
+        "confidence": 0.12778,
+        "support": 0.0056
+      },
+      {
+        "source": "Organic Cilantro",
+        "target": "Limes",
+        "lift": 5.849,
+        "confidence": 0.25651,
+        "support": 0.0056
+      },
+      {
+        "source": "Organic Baby Spinach",
+        "target": "Organic Avocado",
+        "lift": 2.36,
+        "confidence": 0.13019,
+        "support": 0.0098
+      },
+      {
+        "source": "Organic Avocado",
+        "target": "Organic Baby Spinach",
+        "lift": 2.36,
+        "confidence": 0.17769,
+        "support": 0.0098
+      },
+      {
+        "source": "Organic Avocado",
+        "target": "Organic Strawberries",
+        "lift": 1.637,
+        "confidence": 0.1345,
+        "support": 0.00742
+      },
+      {
+        "source": "Organic Whole Milk",
+        "target": "Organic Baby Spinach",
+        "lift": 1.628,
+        "confidence": 0.12255,
+        "support": 0.00527
+      },
+      {
+        "source": "Organic Whole Milk",
+        "target": "Organic Strawberries",
+        "lift": 2.092,
+        "confidence": 0.17191,
+        "support": 0.00739
+      },
+      {
+        "source": "Organic Garlic",
+        "target": "Organic Yellow Onion",
+        "lift": 5.814,
+        "confidence": 0.20633,
+        "support": 0.00707
+      },
+      {
+        "source": "Organic Yellow Onion",
+        "target": "Organic Garlic",
+        "lift": 5.814,
+        "confidence": 0.19912,
+        "support": 0.00707
+      },
+      {
+        "source": "Organic Garlic",
+        "target": "Organic Baby Spinach",
+        "lift": 2.527,
+        "confidence": 0.19027,
+        "support": 0.00652
+      },
+      {
+        "source": "Organic Garlic",
+        "target": "Organic Hass Avocado",
+        "lift": 2.431,
+        "confidence": 0.16166,
+        "support": 0.00554
+      },
+      {
+        "source": "Organic Garlic",
+        "target": "Limes",
+        "lift": 3.35,
+        "confidence": 0.14692,
+        "support": 0.00503
+      },
+      {
+        "source": "Limes",
+        "target": "Organic Garlic",
+        "lift": 3.35,
+        "confidence": 0.11474,
+        "support": 0.00503
+      },
+      {
+        "source": "Organic Lemon",
+        "target": "Organic Hass Avocado",
+        "lift": 3.668,
+        "confidence": 0.24397,
+        "support": 0.00667
+      },
+      {
+        "source": "Organic Hass Avocado",
+        "target": "Organic Lemon",
+        "lift": 3.668,
+        "confidence": 0.10028,
+        "support": 0.00667
+      }
+    ]
+  }
+}
