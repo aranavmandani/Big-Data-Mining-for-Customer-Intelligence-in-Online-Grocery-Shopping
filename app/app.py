@@ -97,7 +97,7 @@ segment_products_file = find_file("processed_data", "segment_top_products.csv")
 
 
 # ============================================================
-# LOAD DATA (cached so the app stays fast on every interaction)
+# LOAD DATA 
 # ============================================================
 
 @st.cache_data(show_spinner="Loading data...")
@@ -139,7 +139,7 @@ segment_top_products = (
 
 
 # ============================================================
-# DISPLAY HELPERS (work on older and newer Streamlit versions)
+# DISPLAY HELPERS 
 # ============================================================
 
 def show_table(df, **kwargs):
