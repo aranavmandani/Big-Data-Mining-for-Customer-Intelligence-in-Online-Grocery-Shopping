@@ -46,7 +46,7 @@ export default function App() {
           </div>
           <div>
             <h1 className="header-title">
-              E-Commerce Customer Intelligence
+              Big Data Mining for Customer Intelligence in Online Grocery Shopping
             </h1>
             <p className="header-subtitle">
               Data Mining Dashboard for Customer Segmentation, Product Analysis, Purchasing Behavior and Recommendations
@@ -115,7 +115,7 @@ export default function App() {
 
       {/* 4. Clean Footer */}
       <footer style={{ marginTop: '40px', paddingTop: '20px', borderTop: '1px solid var(--border-color)', textAlign: 'center', fontSize: '12.5px', color: 'var(--text-muted)' }}>
-        E-Commerce Big Data Mining for Customer Intelligence • Data Mining Techniques Subject Project
+        Big Data Mining for Customer Intelligence in Online Grocery Shopping • Data Mining Techniques Subject Project
       </footer>
     </div>
   );

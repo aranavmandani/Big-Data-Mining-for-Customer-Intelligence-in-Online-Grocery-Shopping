@@ -1,4 +1,4 @@
-# 🛒 DMT E-Commerce Customer Intelligence
+# 🛒 Big Data Mining for Customer Intelligence in Online Grocery Shopping
 
 A Data Mining Techniques (DMT) project for **Customer Segmentation (K-Means)**, **Market Basket Analysis (FP-Growth)**, **Diurnal Purchasing Behavior**, and **Cross-Sell Product Recommendations** on 3.2M+ Instacart transactions and 206,209 customer profiles.
 

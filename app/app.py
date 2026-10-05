@@ -10,7 +10,7 @@ import streamlit as st
 # ============================================================
 
 st.set_page_config(
-    page_title="E-Commerce Customer Intelligence",
+    page_title="Big Data Mining for Customer Intelligence in Online Grocery Shopping",
     page_icon="🛒",
     layout="wide"
 )
@@ -162,7 +162,7 @@ def show_chart(chart):
 # TITLE
 # ============================================================
 
-st.title("🛒 E-Commerce Customer Intelligence")
+st.title("🛒 Big Data Mining for Customer Intelligence in Online Grocery Shopping")
 
 st.write(
     "Data Mining Dashboard for Customer Segmentation, "
@@ -536,4 +536,4 @@ with st.expander("⚠️ Limitations of this analysis"):
 
 st.divider()
 
-st.caption("E-Commerce Big Data Mining for Customer Intelligence")
+st.caption("Big Data Mining for Customer Intelligence in Online Grocery Shopping")

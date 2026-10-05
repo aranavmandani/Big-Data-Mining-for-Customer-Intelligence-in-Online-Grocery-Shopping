@@ -34,8 +34,8 @@ export default function Sidebar({ activeTab, setActiveTab, collapsed, setCollaps
         </div>
         {!collapsed && (
           <div className="sidebar-brand-text">
-            <span className="sidebar-brand-title">E-Commerce DMT</span>
-            <span className="sidebar-brand-subtitle">Customer Intelligence</span>
+            <span className="sidebar-brand-title">Big Data Mining</span>
+            <span className="sidebar-brand-subtitle">Customer Intelligence (Grocery)</span>
           </div>
         )}
       </div>

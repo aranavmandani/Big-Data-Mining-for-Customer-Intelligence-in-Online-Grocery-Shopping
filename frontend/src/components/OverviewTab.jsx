@@ -80,7 +80,7 @@ export default function OverviewTab({ overviewData, onNavigateTab }) {
       <div className="card">
         <h3 className="card-title">
           <Sparkles size={18} style={{ color: '#3B82F6' }} />
-          Project Overview: E-Commerce Big Data Mining & Customer Intelligence
+          Project Overview: Big Data Mining for Customer Intelligence in Online Grocery Shopping
         </h3>
         <p className="card-subtitle">
           Data Mining Techniques (DMT) Dashboard for Customer Segmentation, Product Analytics, Purchasing Behavior, and Market Basket Recommendations

@@ -1,6 +1,6 @@
-# 🛒 E-Commerce Customer Intelligence | Modern Frontend Dashboard
+# 🛒 Big Data Mining for Customer Intelligence in Online Grocery Shopping | Modern Frontend Dashboard
 
-A modern, high-performance Data Mining & Customer Intelligence frontend dashboard built with **React**, **Vite**, **Lucide Icons**, and custom **HTML5 Canvas / CSS3 Design System**.
+A modern, high-performance Data Mining & Customer Intelligence frontend dashboard for **Big Data Mining for Customer Intelligence in Online Grocery Shopping** built with **React**, **Vite**, **Lucide Icons**, and custom **HTML5 Canvas / CSS3 Design System**.
 
 ---
 

@@ -35,7 +35,7 @@ export default function TopNavbar({
       case 'pipeline':
         return { tag: 'Methodology', title: 'Data Mining Architecture & Model Evaluation' };
       default:
-        return { tag: 'Dashboard', title: 'E-Commerce Customer Intelligence' };
+        return { tag: 'Dashboard', title: 'Big Data Mining for Customer Intelligence in Online Grocery Shopping' };
     }
   };
 
