@@ -6,14 +6,16 @@ __pycache__/
 # macOS metadata
 .DS_Store
 
+# Dependencies and build outputs
+node_modules/
+dist/
+frontend/node_modules/
+frontend/dist/
+
 # Source datasets and large intermediate binary files are kept local due to their size.
 Dataset/
 intermediate_data/
 *.pkl
-
-# Frontend build and dependencies
-frontend/node_modules/
-frontend/dist/
 
 # Keep the dashboard's compact, precomputed inputs in version control.
 processed_data/*
