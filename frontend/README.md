@@ -4,25 +4,37 @@ A modern, high-performance Data Mining & Customer Intelligence frontend dashboar
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Quick Start & Vercel Deployment
 
-### 1. Navigate to the frontend directory
+### Deploy to Vercel:
+1. Import this repository in [Vercel](https://vercel.com/new).
+2. Set **Root Directory** to `frontend`.
+3. Framework Preset: `Vite`
+4. Build Command: `npm run build`
+5. Output Directory: `dist`
+6. Click **Deploy**.
+
+---
+
+### Local Development:
+
+#### 1. Navigate to the frontend directory
 ```bash
 cd frontend
 ```
 
-### 2. Install dependencies (if not already installed)
+#### 2. Install dependencies (if not already installed)
 ```bash
 npm install
 ```
 
-### 3. Start the live development server
+#### 3. Start the live development server
 ```bash
 npm run dev
 ```
 Open your browser and navigate to `http://localhost:5173/`.
 
-### 4. Build for production (Optional)
+#### 4. Build for production
 ```bash
 npm run build
 npm run preview

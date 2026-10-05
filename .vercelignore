@@ -1,0 +1,14 @@
+# Vercel Ignore for Root - Ignore Python backend, data, and notebooks
+backend/
+app/
+Dataset/
+intermediate_data/
+processed_data/
+notebooks/
+.DMTvenv/
+*.py
+*.ipynb
+*.csv
+*.pkl
+requirements.txt
+.DS_Store

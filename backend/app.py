@@ -80,8 +80,15 @@ APP_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def find_file(*relative_parts):
-    """Look for a file in the project root first, then next to the app."""
-    for root in (BASE_DIR, APP_DIR):
+    """Look for a file across project root, backend folder, and current working directory."""
+    candidates = [
+        BASE_DIR,
+        APP_DIR,
+        os.getcwd(),
+        os.path.join(os.getcwd(), ".."),
+        os.path.join(APP_DIR, "..")
+    ]
+    for root in candidates:
         path = os.path.join(root, *relative_parts)
         if os.path.exists(path):
             return path
